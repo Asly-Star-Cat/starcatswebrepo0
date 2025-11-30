@@ -1,0 +1,20 @@
+/* emmets */
+@font-face {
+    font-family: "DT Mono";
+    src: url("Fonts/DTMonoWeb.ttf");
+}
+
+/* fondo */
+html, body {
+    cursor : url("Resources/Mouse/mouseAuto.png") 8 0, auto;
+    background-color: black;
+}
+
+.sus_font {
+    color : #000000;
+    font-family: "DT Mono", sans-serif;
+    font-size: clamp(10px, 4vw, 20px);
+    letter-spacing: 2px;
+    
+    cursor : url("Resources/Mouse/mouseText.png") 12 0, text;
+}
